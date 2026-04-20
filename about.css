@@ -1,0 +1,85 @@
+
+body {
+    font-family: Arial;
+    background: #020617;
+    color: white;
+}
+
+/* NAVBAR */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    align-items: center;
+}
+
+header h1 {
+    color: #22d3ee;
+}
+
+nav a {
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+    position: relative;
+}
+
+/* underline hover effect */
+nav a::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #22d3ee;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+/* HERO */
+.hero {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h2 {
+    color: #94a3b8;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin: 10px 0;
+    color: #22d3ee;
+}
+
+.hero p {
+    max-width: 500px;
+    color: #cbd5f5;
+}
+
+/* BUTTON */
+.btn {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: transparent;
+    border: 2px solid #22d3ee;
+    color: #22d3ee;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #22d3ee;
+    color: black;
+    box-shadow: 0 0 20px #22d3ee;
+}

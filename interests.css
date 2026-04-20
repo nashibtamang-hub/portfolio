@@ -1,0 +1,43 @@
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #232526;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #414345;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f7971e;
+}
+
+.interests {
+    text-align: center;
+    padding: 50px;
+}
+
+.card {
+    background: #333;
+    margin: 15px auto;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background: #f7971e;
+    color: black;
+}

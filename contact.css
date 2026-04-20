@@ -1,0 +1,32 @@
+
+body {
+    background: #020617;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+.contact {
+    padding: 50px;
+}
+
+input, textarea {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.1);
+    color: white;
+}
+
+button {
+    padding: 10px 25px;
+    background: #22d3ee;
+    border: none;
+    border-radius: 20px;
+}
+
+button:hover {
+    box-shadow: 0 0 15px #22d3ee;
+}
